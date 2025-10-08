@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <header>
+        <img src="image/Site-logo.webp" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="homepage.html"> HOMEPAGE </a></li>
+                <li><a href="about.html"> ABOUT </a></li>
+                <li><a href="contact.html"> CONTACT </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Contact Us! </h1>
+    <form action="/process-contact" method="POST">
+        <label for="name">Name: </label>
+        <input required autofocus type="text" name="name" id="name" placeholder="Enter your name"/>
+
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="Enter your email"/>
+        
+        <input type="checkbox" id="industry"/>
+        <label for="industry">Industry</label>
+
+        <input type="checkbox" id="technical"/>
+        <label for="technical">Technical</label>
+       
+        <input type="checkbox" id="career"/>
+        <label for="career">Career</label>
+        
+        <select>
+            <option value="1"> Writer </option>
+            <option value="2"> Contributor </option>
+            <option value="3"> Administrator </option>
+        </select>
+
+        <input type="submit" />
+    </form>
+
+    <footer>
+        <p>Our website uses cookies to improve user experience. By accepting, you consent to our use of such cookies. More information can be found in ourPrivacy & Cookie Policy</p> <a href=# target="_blank"> Accept Cookies </a>
+    </footer>
+</body>
+</html>
